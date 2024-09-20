@@ -2,7 +2,7 @@ public class StringMethods {
 
     public static void main(String[] args) {
         //String = a reference data type that can store one or more characters
-        //         reference data types have access to useful methods
+        //         reference data types have access to useful methods.
 
         String name = "Zoly"; //Initialize String 'name' to Zoly
         String spacedName = "      Zoly   "; //Initialize String 'spaceName' to Zoly with spaces on either side
