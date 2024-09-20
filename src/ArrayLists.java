@@ -15,7 +15,7 @@ public class ArrayLists {
 
         food.set(0, "Hotdog"); //Sets the index (for this example 0) value and replaces it with the String "Hotdog"
         food.remove(1); //Removes the certain index that you give it (zero-based indexing
-        //food.clear();
+        //food.clear(); //This command clears the ArrayList (uncomment if you want to clear the ArrayList)
 
         for(int i = 0; i < food.size(); i++ ) { //Read as for i is equal to j, check if i is less than the size of the ArrayList. If so, then run the block below it and increment i by 1
             System.out.println(food.get(i)); //Prints out the food as i grows to the size of the ArrayList, essentially printing out everything in the ArrayList
